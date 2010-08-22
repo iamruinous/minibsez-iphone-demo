@@ -35,7 +35,7 @@
     
     self.tweets = [[NSMutableArray alloc] init];
 
-    [Tweet timelineForUser:@"minibsez" delegate:self];
+    //[Tweet timelineForUser:@"minibsez" delegate:self];
 }
 
 /*
@@ -61,11 +61,13 @@
 
 - (void)dealloc {
     [super dealloc];
+    [tweets release], tweets = nil;
+    [myTableView release], myTableView = nil;
     [sezButton release], sezButton = nil;
 }
 
 - (IBAction) onSezButtonPressed:(id)sender {
-    [self.sezButton setTitle:@"Hello" forState:UIControlStateNormal];
+    [Tweet timelineForUser:@"minibsez" delegate:self];
 }
 
 #pragma mark -
@@ -79,14 +81,17 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
         // Return the number of rows in the section.
-    return [self.tweets count];
+    if ([self.tweets count] > 0)
+        return [self.tweets count];
+    else
+        return 1;
 }
 
 
     // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    int section = indexPath.section;
+//    int section = indexPath.section;
     int row = indexPath.row;
     
     static NSString *CellIdentifier = @"Cell";
@@ -96,10 +101,14 @@
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
     
-    
-    Tweet *tweet = [self.tweets objectAtIndex:row];
-    cell.textLabel.text = tweet.text;
-    
+    if ([self.tweets count] > 0) {
+        Tweet *tweet = [self.tweets objectAtIndex:row];
+        cell.textLabel.text = tweet.text;
+        
+    } else {
+        cell.textLabel.text = @"Please wait...";
+    }
+
     return cell;
 }
 
@@ -154,10 +163,6 @@
 
 -(void)tweetsLoaded:(NSMutableArray *)marr{
     self.tweets = marr;
-    
-    for (Tweet *tweet in tweets) {
-        NSLog(@"%@", tweet.text);
-    }
     
     [self.myTableView reloadData];
 }

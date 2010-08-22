@@ -1,20 +1,20 @@
 TMiniBSez
 v7
 r0
-t304127274.518331
+t304128497.450732
 cCheck dependencies
-cProcessInfoPlistFile /Users/integrum/Documents/MiniBSez/build/Debug-iphonesimulator/MiniBSez.app/Info.plist MiniBSez-Info.plist
-cCompileXIB /Users/integrum/Documents/MiniBSez/MainWindow.xib
-cCompileXIB /Users/integrum/Documents/MiniBSez/SecondView.xib
-cCompileXIB /Users/integrum/Documents/MiniBSez/FirstView.xib
-cProcessPCH /var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MiniBSez_Prefix-flnskscuidpquthajvchyglexhav/MiniBSez_Prefix.pch.gch MiniBSez_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/Objects-normal/i386/main.o /Users/integrum/Documents/MiniBSez/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/Objects-normal/i386/MiniBSezAppDelegate.o /Users/integrum/Documents/MiniBSez/Classes/MiniBSezAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/Objects-normal/i386/FirstViewController.o /Users/integrum/Documents/MiniBSez/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/Objects-normal/i386/Tweet.o /Users/integrum/Documents/MiniBSez/Classes/Tweet.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/integrum/Documents/MiniBSez/build/Debug-iphonesimulator/MiniBSez.app/MiniBSez normal i386
-cGenerateDSYMFile /Users/integrum/Documents/MiniBSez/build/Debug-iphonesimulator/MiniBSez.app.dSYM /Users/integrum/Documents/MiniBSez/build/Debug-iphonesimulator/MiniBSez.app/MiniBSez
-cTouch /Users/integrum/Documents/MiniBSez/build/Debug-iphonesimulator/MiniBSez.app
+cProcessInfoPlistFile /Users/integrum/Projects/minibsez-iphone-demo/build/Debug-iphonesimulator/MiniBSez.app/Info.plist MiniBSez-Info.plist
+cCompileXIB /Users/integrum/Projects/minibsez-iphone-demo/MainWindow.xib
+cCompileXIB /Users/integrum/Projects/minibsez-iphone-demo/SecondView.xib
+cCompileXIB /Users/integrum/Projects/minibsez-iphone-demo/FirstView.xib
+cProcessPCH /var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MiniBSez_Prefix-eehjudsieuxlzvfrntwbezxxooyf/MiniBSez_Prefix.pch.gch MiniBSez_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/Objects-normal/i386/main.o /Users/integrum/Projects/minibsez-iphone-demo/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/Objects-normal/i386/MiniBSezAppDelegate.o /Users/integrum/Projects/minibsez-iphone-demo/Classes/MiniBSezAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/Objects-normal/i386/FirstViewController.o /Users/integrum/Projects/minibsez-iphone-demo/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/Objects-normal/i386/Tweet.o /Users/integrum/Projects/minibsez-iphone-demo/Classes/Tweet.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/integrum/Projects/minibsez-iphone-demo/build/Debug-iphonesimulator/MiniBSez.app/MiniBSez normal i386
+cGenerateDSYMFile /Users/integrum/Projects/minibsez-iphone-demo/build/Debug-iphonesimulator/MiniBSez.app.dSYM /Users/integrum/Projects/minibsez-iphone-demo/build/Debug-iphonesimulator/MiniBSez.app/MiniBSez
+cTouch /Users/integrum/Projects/minibsez-iphone-demo/build/Debug-iphonesimulator/MiniBSez.app
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
 c000000004C7002790000000000000132
@@ -186,6 +186,131 @@ c000000004C7041F80000000000000162
 t1282425336
 s354
 i<UIKit/UIKit.h>
+
+N/Users/integrum/Projects/minibsez-iphone-demo/Classes/FirstViewController.h
+c000000004C706562000000000000025B
+t1282434402
+s603
+i<UIKit/UIKit.h>
+
+N/Users/integrum/Projects/minibsez-iphone-demo/Classes/FirstViewController.m
+c000000004C706A6B0000000000001248
+t1282435691
+s4680
+i"FirstViewController.h"
+i<HTTPRiot/HTTPRiot.h>
+i"Tweet.h"
+
+N/Users/integrum/Projects/minibsez-iphone-demo/Classes/MiniBSezAppDelegate.h
+c000000004C7041F800000000000001D8
+t1282425336
+s472
+i<UIKit/UIKit.h>
+
+N/Users/integrum/Projects/minibsez-iphone-demo/Classes/MiniBSezAppDelegate.m
+c000000004C7041F80000000000000C35
+t1282425336
+s3125
+i"MiniBSezAppDelegate.h"
+
+N/Users/integrum/Projects/minibsez-iphone-demo/Classes/Tweet.h
+c000000004C7064840000000000000330
+t1282434180
+s816
+i<Foundation/Foundation.h>
+i<HTTPRiot/HTTPRiot.h>
+
+N/Users/integrum/Projects/minibsez-iphone-demo/Classes/Tweet.m
+c000000004C70648B0000000000000B3E
+t1282434187
+s2878
+i"Tweet.h"
+
+N/Users/integrum/Projects/minibsez-iphone-demo/FirstView.xib
+c000000004C7069BA000000000000605F
+t1282435514
+s24671
+
+N/Users/integrum/Projects/minibsez-iphone-demo/MainWindow.xib
+c000000004C70479C000000000000694F
+t1282426780
+s26959
+
+N/Users/integrum/Projects/minibsez-iphone-demo/MiniBSez_Prefix.pch
+c000000004C7041F800000000000000B9
+t1282425336
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/integrum/Projects/minibsez-iphone-demo/SecondView.xib
+c000000004C7041F800000000000049D0
+t1282425336
+s18896
+
+N/Users/integrum/Projects/minibsez-iphone-demo/build/Debug-iphonesimulator/MiniBSez.app
+t1282435697
+s272
+
+N/Users/integrum/Projects/minibsez-iphone-demo/build/Debug-iphonesimulator/MiniBSez.app.dSYM
+t1282435697
+s102
+
+N/Users/integrum/Projects/minibsez-iphone-demo/build/Debug-iphonesimulator/MiniBSez.app/FirstView.nib
+t1282435551
+s2103
+
+N/Users/integrum/Projects/minibsez-iphone-demo/build/Debug-iphonesimulator/MiniBSez.app/Info.plist
+t1282432273
+s595
+
+N/Users/integrum/Projects/minibsez-iphone-demo/build/Debug-iphonesimulator/MiniBSez.app/MainWindow.nib
+t1282432277
+s1774
+
+N/Users/integrum/Projects/minibsez-iphone-demo/build/Debug-iphonesimulator/MiniBSez.app/MiniBSez
+t1282435697
+s191740
+
+N/Users/integrum/Projects/minibsez-iphone-demo/build/Debug-iphonesimulator/MiniBSez.app/PkgInfo
+t1282432273
+s8
+
+N/Users/integrum/Projects/minibsez-iphone-demo/build/Debug-iphonesimulator/MiniBSez.app/SecondView.nib
+t1282432277
+s1706
+
+N/Users/integrum/Projects/minibsez-iphone-demo/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/Objects-normal/i386/FirstViewController.o
+t1282435697
+s51480
+
+N/Users/integrum/Projects/minibsez-iphone-demo/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/Objects-normal/i386/MiniBSez.LinkFileList
+c000000004C7066D8000000000000022B
+t1282434776
+s555
+
+N/Users/integrum/Projects/minibsez-iphone-demo/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/Objects-normal/i386/MiniBSezAppDelegate.o
+t1282434777
+s51676
+
+N/Users/integrum/Projects/minibsez-iphone-demo/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/Objects-normal/i386/Tweet.o
+t1282434777
+s19616
+
+N/Users/integrum/Projects/minibsez-iphone-demo/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/Objects-normal/i386/main.o
+t1282434777
+s6596
+
+N/Users/integrum/Projects/minibsez-iphone-demo/main.m
+c000000004C7041F80000000000000162
+t1282425336
+s354
+i<UIKit/UIKit.h>
+
+N/usr/include/libxml2/libxml/tree.h
+c000000004B90C6970000000000008F14
+t1267779223
+s36628
 
 N/var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator4.0-iPhoneSimulator4.0-gexjrybpyjlphcddsdtsonhylwvc
 c000000004C705D0C0000000000000132
@@ -4483,6 +4608,151 @@ c000000004A1195E90000000000000155
 t1242666473
 s341
 
+N/var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator4.0-iPhoneSimulator4.0-gexjrybpyjlphcddsdtsonhylwvc/usr/local/include/HTTPRiot/AIXMLDocumentSerialize.h
+c000000004C705CD70000000000000133
+t1282432215
+s307
+i<Foundation/Foundation.h>
+i"AIXMLSerialization.h"
+
+N/var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator4.0-iPhoneSimulator4.0-gexjrybpyjlphcddsdtsonhylwvc/usr/local/include/HTTPRiot/AIXMLElementSerialize.h
+c000000004C705CD70000000000002494
+t1282432215
+s9364
+i<Foundation/Foundation.h>
+i"AIXMLSerialization.h"
+
+N/var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator4.0-iPhoneSimulator4.0-gexjrybpyjlphcddsdtsonhylwvc/usr/local/include/HTTPRiot/AIXMLSerialization.h
+c000000004C705CD70000000000000889
+t1282432215
+s2185
+i<TargetConditionals.h>
+i"DDXML.h"
+i"AIXMLDocumentSerialize.h"
+i"AIXMLElementSerialize.h"
+
+N/var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator4.0-iPhoneSimulator4.0-gexjrybpyjlphcddsdtsonhylwvc/usr/local/include/HTTPRiot/DDXML.h
+c000000004C705CD70000000000000049
+t1282432215
+s73
+i"DDXMLNode.h"
+i"DDXMLElement.h"
+i"DDXMLDocument.h"
+
+N/var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator4.0-iPhoneSimulator4.0-gexjrybpyjlphcddsdtsonhylwvc/usr/local/include/HTTPRiot/DDXMLDocument.h
+c000000004C705CD70000000000000807
+t1282432215
+s2055
+i<Foundation/Foundation.h>
+i"DDXMLElement.h"
+i"DDXMLNode.h"
+
+N/var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator4.0-iPhoneSimulator4.0-gexjrybpyjlphcddsdtsonhylwvc/usr/local/include/HTTPRiot/DDXMLElement.h
+c000000004C705CD700000000000006B0
+t1282432215
+s1712
+i<Foundation/Foundation.h>
+i"DDXMLNode.h"
+
+N/var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator4.0-iPhoneSimulator4.0-gexjrybpyjlphcddsdtsonhylwvc/usr/local/include/HTTPRiot/DDXMLNode.h
+c000000004C705CD70000000000001392
+t1282432215
+s5010
+i<Foundation/Foundation.h>
+i<libxml/tree.h>
+
+N/var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator4.0-iPhoneSimulator4.0-gexjrybpyjlphcddsdtsonhylwvc/usr/local/include/HTTPRiot/HRGlobal.h
+c000000004C705CD700000000000005E8
+t1282432215
+s1512
+i<Foundation/Foundation.h>
+
+N/var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator4.0-iPhoneSimulator4.0-gexjrybpyjlphcddsdtsonhylwvc/usr/local/include/HTTPRiot/HROperationQueue.h
+c000000004C705CD70000000000000199
+t1282432215
+s409
+i<Foundation/Foundation.h>
+
+N/var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator4.0-iPhoneSimulator4.0-gexjrybpyjlphcddsdtsonhylwvc/usr/local/include/HTTPRiot/HRRequestOperation.h
+c000000004C705CD70000000000000AE2
+t1282432215
+s2786
+i<Foundation/Foundation.h>
+i"HRGlobal.h"
+i"HRResponseDelegate.h"
+
+N/var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator4.0-iPhoneSimulator4.0-gexjrybpyjlphcddsdtsonhylwvc/usr/local/include/HTTPRiot/HRResponseDelegate.h
+c000000004C705CD70000000000000A52
+t1282432215
+s2642
+
+N/var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator4.0-iPhoneSimulator4.0-gexjrybpyjlphcddsdtsonhylwvc/usr/local/include/HTTPRiot/HRRestModel.h
+c000000004C705CD70000000000001B07
+t1282432215
+s6919
+i<Foundation/Foundation.h>
+i"HRGlobal.h"
+
+N/var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator4.0-iPhoneSimulator4.0-gexjrybpyjlphcddsdtsonhylwvc/usr/local/include/HTTPRiot/HTTPRiot.h
+c000000004C705CD700000000000017D1
+t1282432215
+s6097
+i<Foundation/Foundation.h>
+i"AIXMLSerialization.h"
+i"JSON.h"
+i"HROperationQueue.h"
+i"HRRequestOperation.h"
+i"HRRestModel.h"
+i"HRResponseDelegate.h"
+
+N/var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator4.0-iPhoneSimulator4.0-gexjrybpyjlphcddsdtsonhylwvc/usr/local/include/HTTPRiot/JSON.h
+c000000004C705CD700000000000008F9
+t1282432215
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator4.0-iPhoneSimulator4.0-gexjrybpyjlphcddsdtsonhylwvc/usr/local/include/HTTPRiot/NSObject+SBJSON.h
+c000000004C705CD70000000000000A01
+t1282432215
+s2561
+i<Foundation/Foundation.h>
+
+N/var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator4.0-iPhoneSimulator4.0-gexjrybpyjlphcddsdtsonhylwvc/usr/local/include/HTTPRiot/NSString+SBJSON.h
+c000000004C705CD70000000000000916
+t1282432215
+s2326
+i<Foundation/Foundation.h>
+
+N/var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator4.0-iPhoneSimulator4.0-gexjrybpyjlphcddsdtsonhylwvc/usr/local/include/HTTPRiot/SBJSON.h
+c000000004C705CD70000000000000AED
+t1282432215
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator4.0-iPhoneSimulator4.0-gexjrybpyjlphcddsdtsonhylwvc/usr/local/include/HTTPRiot/SBJsonBase.h
+c000000004C705CD70000000000000B82
+t1282432215
+s2946
+i<Foundation/Foundation.h>
+
+N/var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator4.0-iPhoneSimulator4.0-gexjrybpyjlphcddsdtsonhylwvc/usr/local/include/HTTPRiot/SBJsonParser.h
+c000000004C705CD70000000000000C0B
+t1282432215
+s3083
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator4.0-iPhoneSimulator4.0-gexjrybpyjlphcddsdtsonhylwvc/usr/local/include/HTTPRiot/SBJsonWriter.h
+c000000004C705CD70000000000001140
+t1282432215
+s4416
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
 N/var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MiniBSez_Prefix-ayabpvdbrhbxxidwaqdhdayaaojb/MiniBSez_Prefix.pch.gch
 t1282425363
 s10212912
@@ -4490,6 +4760,10 @@ s10212912
 N/var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MiniBSez_Prefix-cepxjwcxdtzhtjerfbulsvjqkcvm/MiniBSez_Prefix.pch.gch
 t2
 s0
+
+N/var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MiniBSez_Prefix-eehjudsieuxlzvfrntwbezxxooyf/MiniBSez_Prefix.pch.gch
+t1282434777
+s10229296
 
 N/var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MiniBSez_Prefix-flnskscuidpquthajvchyglexhav/MiniBSez_Prefix.pch.gch
 t1282432280
@@ -4502,7 +4776,7 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies304127273#304127273#0(0"0(0#1#0"2456469440#0"0#
+lSLF07#2@18"Check dependencies304128496#304128497#0(0"0(0#1#0"2456469440#0"0#
 
 CCompileC build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/Objects-normal/i386/FirstViewController.o /Users/integrum/Documents/MiniBSez/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s304127274.174949
@@ -4519,6 +4793,19 @@ o/Users/integrum/Documents/MiniBSez/Classes/FirstViewController.m: In function '
 o/Users/integrum/Documents/MiniBSez/Classes/FirstViewController.m:89: warning: unused variable 'section'
 lSLF07#2@72"Compile /Users/integrum/Documents/MiniBSez/Classes/FirstViewController.m304127274#304127274#0(241"/Users/integrum/Documents/MiniBSez/Classes/FirstViewController.m: In function '-[FirstViewController tableView:cellForRowAtIndexPath:]':/Users/integrum/Documents/MiniBSez/Classes/FirstViewController.m:89: warning: unused variable 'section'1(22@25"Unused variable 'section'304127274#137#104#0(6@64"/Users/integrum/Documents/MiniBSez/Classes/FirstViewController.m304127270#89#0#89#0#19"unused variable '*'0(0#0#64"/Users/integrum/Documents/MiniBSez/Classes/FirstViewController.m2456469440#2038"    cd /Users/integrum/Documents/MiniBSez    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator4.0-iPhoneSimulator4.0-gexjrybpyjlphcddsdtsonhylwvc -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/integrum/Documents/MiniBSez/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/MiniBSez-generated-files.hmap -I/Users/integrum/Documents/MiniBSez/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/MiniBSez-own-target-headers.hmap -I/Users/integrum/Documents/MiniBSez/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/MiniBSez-all-target-headers.hmap -iquote /Users/integrum/Documents/MiniBSez/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/MiniBSez-project-headers.hmap -F/Users/integrum/Documents/MiniBSez/build/Debug-iphonesimulator -I/Users/integrum/Documents/MiniBSez/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/integrum/Documents/MiniBSez/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/DerivedSources/i386 -I/Users/integrum/Documents/MiniBSez/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/DerivedSources -include /var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MiniBSez_Prefix-flnskscuidpquthajvchyglexhav/MiniBSez_Prefix.pch -c /Users/integrum/Documents/MiniBSez/Classes/FirstViewController.m -o /Users/integrum/Documents/MiniBSez/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/Objects-normal/i386/FirstViewController.o0#
 
+CCompileC build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/Objects-normal/i386/FirstViewController.o /Users/integrum/Projects/minibsez-iphone-demo/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304128497.048340
+e304128497.293897
+r1
+xCompileC
+xbuild/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/Objects-normal/i386/FirstViewController.o
+x/Users/integrum/Projects/minibsez-iphone-demo/Classes/FirstViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/integrum/Projects/minibsez-iphone-demo/Classes/FirstViewController.m304128497#304128497#0(0"0(0#0#75"/Users/integrum/Projects/minibsez-iphone-demo/Classes/FirstViewController.m2456469440#2218"    cd /Users/integrum/Projects/minibsez-iphone-demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator4.0-iPhoneSimulator4.0-gexjrybpyjlphcddsdtsonhylwvc -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/integrum/Projects/minibsez-iphone-demo/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/MiniBSez-generated-files.hmap -I/Users/integrum/Projects/minibsez-iphone-demo/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/MiniBSez-own-target-headers.hmap -I/Users/integrum/Projects/minibsez-iphone-demo/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/MiniBSez-all-target-headers.hmap -iquote /Users/integrum/Projects/minibsez-iphone-demo/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/MiniBSez-project-headers.hmap -F/Users/integrum/Projects/minibsez-iphone-demo/build/Debug-iphonesimulator -I/Users/integrum/Projects/minibsez-iphone-demo/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/integrum/Projects/minibsez-iphone-demo/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/DerivedSources/i386 -I/Users/integrum/Projects/minibsez-iphone-demo/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/DerivedSources -include /var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MiniBSez_Prefix-eehjudsieuxlzvfrntwbezxxooyf/MiniBSez_Prefix.pch -c /Users/integrum/Projects/minibsez-iphone-demo/Classes/FirstViewController.m -o /Users/integrum/Projects/minibsez-iphone-demo/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/Objects-normal/i386/FirstViewController.o0#
+
 CCompileC build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/Objects-normal/i386/MiniBSezAppDelegate.o /Users/integrum/Documents/MiniBSez/Classes/MiniBSezAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s304125080.861927
 e304125081.125138
@@ -4532,6 +4819,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@72"Compile /Users/integrum/Documents/MiniBSez/Classes/MiniBSezAppDelegate.m304125080#304125081#0(0"0(0#0#64"/Users/integrum/Documents/MiniBSez/Classes/MiniBSezAppDelegate.m2456469440#2038"    cd /Users/integrum/Documents/MiniBSez    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator4.0-iPhoneSimulator4.0-gexjrybpyjlphcddsdtsonhylwvc -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/integrum/Documents/MiniBSez/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/MiniBSez-generated-files.hmap -I/Users/integrum/Documents/MiniBSez/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/MiniBSez-own-target-headers.hmap -I/Users/integrum/Documents/MiniBSez/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/MiniBSez-all-target-headers.hmap -iquote /Users/integrum/Documents/MiniBSez/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/MiniBSez-project-headers.hmap -F/Users/integrum/Documents/MiniBSez/build/Debug-iphonesimulator -I/Users/integrum/Documents/MiniBSez/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/integrum/Documents/MiniBSez/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/DerivedSources/i386 -I/Users/integrum/Documents/MiniBSez/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/DerivedSources -include /var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MiniBSez_Prefix-flnskscuidpquthajvchyglexhav/MiniBSez_Prefix.pch -c /Users/integrum/Documents/MiniBSez/Classes/MiniBSezAppDelegate.m -o /Users/integrum/Documents/MiniBSez/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/Objects-normal/i386/MiniBSezAppDelegate.o0#
 
+CCompileC build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/Objects-normal/i386/MiniBSezAppDelegate.o /Users/integrum/Projects/minibsez-iphone-demo/Classes/MiniBSezAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304127577.101691
+e304127577.252819
+r1
+xCompileC
+xbuild/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/Objects-normal/i386/MiniBSezAppDelegate.o
+x/Users/integrum/Projects/minibsez-iphone-demo/Classes/MiniBSezAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/integrum/Projects/minibsez-iphone-demo/Classes/MiniBSezAppDelegate.m304127577#304127577#0(0"0(0#0#75"/Users/integrum/Projects/minibsez-iphone-demo/Classes/MiniBSezAppDelegate.m2456469440#2218"    cd /Users/integrum/Projects/minibsez-iphone-demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator4.0-iPhoneSimulator4.0-gexjrybpyjlphcddsdtsonhylwvc -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/integrum/Projects/minibsez-iphone-demo/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/MiniBSez-generated-files.hmap -I/Users/integrum/Projects/minibsez-iphone-demo/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/MiniBSez-own-target-headers.hmap -I/Users/integrum/Projects/minibsez-iphone-demo/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/MiniBSez-all-target-headers.hmap -iquote /Users/integrum/Projects/minibsez-iphone-demo/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/MiniBSez-project-headers.hmap -F/Users/integrum/Projects/minibsez-iphone-demo/build/Debug-iphonesimulator -I/Users/integrum/Projects/minibsez-iphone-demo/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/integrum/Projects/minibsez-iphone-demo/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/DerivedSources/i386 -I/Users/integrum/Projects/minibsez-iphone-demo/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/DerivedSources -include /var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MiniBSez_Prefix-eehjudsieuxlzvfrntwbezxxooyf/MiniBSez_Prefix.pch -c /Users/integrum/Projects/minibsez-iphone-demo/Classes/MiniBSezAppDelegate.m -o /Users/integrum/Projects/minibsez-iphone-demo/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/Objects-normal/i386/MiniBSezAppDelegate.o0#
+
 CCompileC build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/Objects-normal/i386/Tweet.o /Users/integrum/Documents/MiniBSez/Classes/Tweet.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s304126987.804008
 e304126987.998830
@@ -4544,6 +4844,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@58"Compile /Users/integrum/Documents/MiniBSez/Classes/Tweet.m304126987#304126987#0(0"0(0#0#50"/Users/integrum/Documents/MiniBSez/Classes/Tweet.m2456469440#2010"    cd /Users/integrum/Documents/MiniBSez    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator4.0-iPhoneSimulator4.0-gexjrybpyjlphcddsdtsonhylwvc -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/integrum/Documents/MiniBSez/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/MiniBSez-generated-files.hmap -I/Users/integrum/Documents/MiniBSez/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/MiniBSez-own-target-headers.hmap -I/Users/integrum/Documents/MiniBSez/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/MiniBSez-all-target-headers.hmap -iquote /Users/integrum/Documents/MiniBSez/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/MiniBSez-project-headers.hmap -F/Users/integrum/Documents/MiniBSez/build/Debug-iphonesimulator -I/Users/integrum/Documents/MiniBSez/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/integrum/Documents/MiniBSez/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/DerivedSources/i386 -I/Users/integrum/Documents/MiniBSez/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/DerivedSources -include /var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MiniBSez_Prefix-flnskscuidpquthajvchyglexhav/MiniBSez_Prefix.pch -c /Users/integrum/Documents/MiniBSez/Classes/Tweet.m -o /Users/integrum/Documents/MiniBSez/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/Objects-normal/i386/Tweet.o0#
+
+CCompileC build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/Objects-normal/i386/Tweet.o /Users/integrum/Projects/minibsez-iphone-demo/Classes/Tweet.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304127577.252953
+e304127577.418412
+r1
+xCompileC
+xbuild/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/Objects-normal/i386/Tweet.o
+x/Users/integrum/Projects/minibsez-iphone-demo/Classes/Tweet.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/integrum/Projects/minibsez-iphone-demo/Classes/Tweet.m304127577#304127577#0(0"0(0#0#61"/Users/integrum/Projects/minibsez-iphone-demo/Classes/Tweet.m2456469440#2190"    cd /Users/integrum/Projects/minibsez-iphone-demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator4.0-iPhoneSimulator4.0-gexjrybpyjlphcddsdtsonhylwvc -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/integrum/Projects/minibsez-iphone-demo/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/MiniBSez-generated-files.hmap -I/Users/integrum/Projects/minibsez-iphone-demo/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/MiniBSez-own-target-headers.hmap -I/Users/integrum/Projects/minibsez-iphone-demo/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/MiniBSez-all-target-headers.hmap -iquote /Users/integrum/Projects/minibsez-iphone-demo/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/MiniBSez-project-headers.hmap -F/Users/integrum/Projects/minibsez-iphone-demo/build/Debug-iphonesimulator -I/Users/integrum/Projects/minibsez-iphone-demo/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/integrum/Projects/minibsez-iphone-demo/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/DerivedSources/i386 -I/Users/integrum/Projects/minibsez-iphone-demo/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/DerivedSources -include /var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MiniBSez_Prefix-eehjudsieuxlzvfrntwbezxxooyf/MiniBSez_Prefix.pch -c /Users/integrum/Projects/minibsez-iphone-demo/Classes/Tweet.m -o /Users/integrum/Projects/minibsez-iphone-demo/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/Objects-normal/i386/Tweet.o0#
 
 CCompileC build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/Objects-normal/i386/Whatever.o /Users/integrum/Documents/MiniBSez/Classes/Whatever.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s304125081.125258
@@ -4571,6 +4884,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@49"Compile /Users/integrum/Documents/MiniBSez/main.m304125080#304125081#0(0"0(0#0#41"/Users/integrum/Documents/MiniBSez/main.m2456469440#2000"    cd /Users/integrum/Documents/MiniBSez    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator4.0-iPhoneSimulator4.0-gexjrybpyjlphcddsdtsonhylwvc -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/integrum/Documents/MiniBSez/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/MiniBSez-generated-files.hmap -I/Users/integrum/Documents/MiniBSez/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/MiniBSez-own-target-headers.hmap -I/Users/integrum/Documents/MiniBSez/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/MiniBSez-all-target-headers.hmap -iquote /Users/integrum/Documents/MiniBSez/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/MiniBSez-project-headers.hmap -F/Users/integrum/Documents/MiniBSez/build/Debug-iphonesimulator -I/Users/integrum/Documents/MiniBSez/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/integrum/Documents/MiniBSez/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/DerivedSources/i386 -I/Users/integrum/Documents/MiniBSez/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/DerivedSources -include /var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MiniBSez_Prefix-flnskscuidpquthajvchyglexhav/MiniBSez_Prefix.pch -c /Users/integrum/Documents/MiniBSez/main.m -o /Users/integrum/Documents/MiniBSez/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/Objects-normal/i386/main.o0#
 
+CCompileC build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/Objects-normal/i386/main.o /Users/integrum/Projects/minibsez-iphone-demo/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304127577.100095
+e304127577.179862
+r1
+xCompileC
+xbuild/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/Objects-normal/i386/main.o
+x/Users/integrum/Projects/minibsez-iphone-demo/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/integrum/Projects/minibsez-iphone-demo/main.m304127577#304127577#0(0"0(0#0#52"/Users/integrum/Projects/minibsez-iphone-demo/main.m4717520#2180"    cd /Users/integrum/Projects/minibsez-iphone-demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator4.0-iPhoneSimulator4.0-gexjrybpyjlphcddsdtsonhylwvc -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/integrum/Projects/minibsez-iphone-demo/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/MiniBSez-generated-files.hmap -I/Users/integrum/Projects/minibsez-iphone-demo/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/MiniBSez-own-target-headers.hmap -I/Users/integrum/Projects/minibsez-iphone-demo/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/MiniBSez-all-target-headers.hmap -iquote /Users/integrum/Projects/minibsez-iphone-demo/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/MiniBSez-project-headers.hmap -F/Users/integrum/Projects/minibsez-iphone-demo/build/Debug-iphonesimulator -I/Users/integrum/Projects/minibsez-iphone-demo/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/integrum/Projects/minibsez-iphone-demo/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/DerivedSources/i386 -I/Users/integrum/Projects/minibsez-iphone-demo/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/DerivedSources -include /var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MiniBSez_Prefix-eehjudsieuxlzvfrntwbezxxooyf/MiniBSez_Prefix.pch -c /Users/integrum/Projects/minibsez-iphone-demo/main.m -o /Users/integrum/Projects/minibsez-iphone-demo/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/Objects-normal/i386/main.o0#
+
 CCompileXIB /Users/integrum/Documents/MiniBSez/FirstView.xib
 s304127273.379480
 e304127274.174363
@@ -4595,6 +4921,20 @@ xCompileXIB
 x/Users/integrum/Documents/MiniBSez/SecondView.xib
 lSLF07#2@25"CompileXIB SecondView.xib304125073#304125077#0(0"0(0#0#49"/Users/integrum/Documents/MiniBSez/SecondView.xib2456469440#629"    cd /Users/integrum/Documents/MiniBSez    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/integrum/Documents/MiniBSez/build/Debug-iphonesimulator/MiniBSez.app/SecondView.nib /Users/integrum/Documents/MiniBSez/SecondView.xib --sdk /var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator4.0-iPhoneSimulator4.0-gexjrybpyjlphcddsdtsonhylwvc0#
 
+CCompileXIB /Users/integrum/Projects/minibsez-iphone-demo/FirstView.xib
+s304128350.747948
+e304128351.612841
+r1
+xCompileXIB
+x/Users/integrum/Projects/minibsez-iphone-demo/FirstView.xib
+lSLF07#2@24"CompileXIB FirstView.xib304128350#304128351#0(0"0(0#0#59"/Users/integrum/Projects/minibsez-iphone-demo/FirstView.xib2456469440#719"    cd /Users/integrum/Projects/minibsez-iphone-demo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/integrum/Projects/minibsez-iphone-demo/build/Debug-iphonesimulator/MiniBSez.app/FirstView.nib /Users/integrum/Projects/minibsez-iphone-demo/FirstView.xib --sdk /var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator4.0-iPhoneSimulator4.0-gexjrybpyjlphcddsdtsonhylwvc0#
+
+CCompileXIB /Users/integrum/Projects/minibsez-iphone-demo/MainWindow.xib
+r0
+
+CCompileXIB /Users/integrum/Projects/minibsez-iphone-demo/SecondView.xib
+r0
+
 CGenerateDSYMFile /Users/integrum/Documents/MiniBSez/build/Debug-iphonesimulator/MiniBSez.app.dSYM /Users/integrum/Documents/MiniBSez/build/Debug-iphonesimulator/MiniBSez.app/MiniBSez
 s304127274.454615
 e304127274.513619
@@ -4603,6 +4943,15 @@ xGenerateDSYMFile
 x/Users/integrum/Documents/MiniBSez/build/Debug-iphonesimulator/MiniBSez.app.dSYM
 x/Users/integrum/Documents/MiniBSez/build/Debug-iphonesimulator/MiniBSez.app/MiniBSez
 lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/MiniBSez.app.dSYM build/Debug-iphonesimulator/MiniBSez.app/MiniBSez304127274#304127274#0(0"0(0#0#84"/Users/integrum/Documents/MiniBSez/build/Debug-iphonesimulator/MiniBSez.app/MiniBSez2456469440#374"    cd /Users/integrum/Documents/MiniBSez    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/integrum/Documents/MiniBSez/build/Debug-iphonesimulator/MiniBSez.app/MiniBSez -o /Users/integrum/Documents/MiniBSez/build/Debug-iphonesimulator/MiniBSez.app.dSYM0#
+
+CGenerateDSYMFile /Users/integrum/Projects/minibsez-iphone-demo/build/Debug-iphonesimulator/MiniBSez.app.dSYM /Users/integrum/Projects/minibsez-iphone-demo/build/Debug-iphonesimulator/MiniBSez.app/MiniBSez
+s304128497.387350
+e304128497.444898
+r1
+xGenerateDSYMFile
+x/Users/integrum/Projects/minibsez-iphone-demo/build/Debug-iphonesimulator/MiniBSez.app.dSYM
+x/Users/integrum/Projects/minibsez-iphone-demo/build/Debug-iphonesimulator/MiniBSez.app/MiniBSez
+lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/MiniBSez.app.dSYM build/Debug-iphonesimulator/MiniBSez.app/MiniBSez304128497#304128497#0(0"0(0#0#95"/Users/integrum/Projects/minibsez-iphone-demo/build/Debug-iphonesimulator/MiniBSez.app/MiniBSez2456469440#466"    cd /Users/integrum/Projects/minibsez-iphone-demo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/usr/bin/dsymutil /Users/integrum/Projects/minibsez-iphone-demo/build/Debug-iphonesimulator/MiniBSez.app/MiniBSez -o /Users/integrum/Projects/minibsez-iphone-demo/build/Debug-iphonesimulator/MiniBSez.app.dSYM0#
 
 CLd /Users/integrum/Documents/MiniBSez/build/Debug-iphonesimulator/MiniBSez.app/MiniBSez normal i386
 s304127274.379944
@@ -4614,6 +4963,16 @@ xnormal
 xi386
 lSLF07#2@89"Link /Users/integrum/Documents/MiniBSez/build/Debug-iphonesimulator/MiniBSez.app/MiniBSez304127274#304127274#0(0"0(0#0#0"2456469440#989"    cd /Users/integrum/Documents/MiniBSez    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator4.0-iPhoneSimulator4.0-gexjrybpyjlphcddsdtsonhylwvc -L/Users/integrum/Documents/MiniBSez/build/Debug-iphonesimulator -F/Users/integrum/Documents/MiniBSez/build/Debug-iphonesimulator -filelist /Users/integrum/Documents/MiniBSez/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/Objects-normal/i386/MiniBSez.LinkFileList -mmacosx-version-min=10.6 -lhttpriot -lxml2 -ObjC -all_load -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/integrum/Documents/MiniBSez/build/Debug-iphonesimulator/MiniBSez.app/MiniBSez0#
 
+CLd /Users/integrum/Projects/minibsez-iphone-demo/build/Debug-iphonesimulator/MiniBSez.app/MiniBSez normal i386
+s304128497.294020
+e304128497.387213
+r1
+xLd
+x/Users/integrum/Projects/minibsez-iphone-demo/build/Debug-iphonesimulator/MiniBSez.app/MiniBSez
+xnormal
+xi386
+lSLF07#2@100"Link /Users/integrum/Projects/minibsez-iphone-demo/build/Debug-iphonesimulator/MiniBSez.app/MiniBSez304128497#304128497#0(0"0(0#0#0"2456469440#1103"    cd /Users/integrum/Projects/minibsez-iphone-demo    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator4.0-iPhoneSimulator4.0-gexjrybpyjlphcddsdtsonhylwvc -L/Users/integrum/Projects/minibsez-iphone-demo/build/Debug-iphonesimulator -F/Users/integrum/Projects/minibsez-iphone-demo/build/Debug-iphonesimulator -filelist /Users/integrum/Projects/minibsez-iphone-demo/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/Objects-normal/i386/MiniBSez.LinkFileList -mmacosx-version-min=10.6 -lhttpriot -lxml2 -ObjC -all_load -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/integrum/Projects/minibsez-iphone-demo/build/Debug-iphonesimulator/MiniBSez.app/MiniBSez0#
+
 CProcessInfoPlistFile /Users/integrum/Documents/MiniBSez/build/Debug-iphonesimulator/MiniBSez.app/Info.plist MiniBSez-Info.plist
 s304125073.191732
 e304125073.233698
@@ -4622,6 +4981,9 @@ xProcessInfoPlistFile
 x/Users/integrum/Documents/MiniBSez/build/Debug-iphonesimulator/MiniBSez.app/Info.plist
 xMiniBSez-Info.plist
 lSLF07#2@27"Process MiniBSez-Info.plist304125073#304125073#0(0"0(0#0#54"/Users/integrum/Documents/MiniBSez/MiniBSez-Info.plist2456469440#470"    cd /Users/integrum/Documents/MiniBSez    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MiniBSez-Info.plist -genpkginfo /Users/integrum/Documents/MiniBSez/build/Debug-iphonesimulator/MiniBSez.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/integrum/Documents/MiniBSez/build/Debug-iphonesimulator/MiniBSez.app/Info.plist0#
+
+CProcessInfoPlistFile /Users/integrum/Projects/minibsez-iphone-demo/build/Debug-iphonesimulator/MiniBSez.app/Info.plist MiniBSez-Info.plist
+r0
 
 CProcessPCH /var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MiniBSez_Prefix-ayabpvdbrhbxxidwaqdhdayaaojb/MiniBSez_Prefix.pch.gch MiniBSez_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 s304118162.450540
@@ -4638,6 +5000,19 @@ lSLF07#2@30"Precompile MiniBSez_Prefix.pch304118162#304118163#0(0"0(0#0#54"/User
 
 CProcessPCH /var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MiniBSez_Prefix-cepxjwcxdtzhtjerfbulsvjqkcvm/MiniBSez_Prefix.pch.gch MiniBSez_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
+
+CProcessPCH /var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MiniBSez_Prefix-eehjudsieuxlzvfrntwbezxxooyf/MiniBSez_Prefix.pch.gch MiniBSez_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s304127576.203753
+e304127577.099887
+r1
+xProcessPCH
+x/var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MiniBSez_Prefix-eehjudsieuxlzvfrntwbezxxooyf/MiniBSez_Prefix.pch.gch
+xMiniBSez_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile MiniBSez_Prefix.pch304127576#304127577#0(0"0(0#0#65"/Users/integrum/Projects/minibsez-iphone-demo/MiniBSez_Prefix.pch4231192#2064"    cd /Users/integrum/Projects/minibsez-iphone-demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator4.0-iPhoneSimulator4.0-gexjrybpyjlphcddsdtsonhylwvc -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/integrum/Projects/minibsez-iphone-demo/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/MiniBSez-generated-files.hmap -I/Users/integrum/Projects/minibsez-iphone-demo/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/MiniBSez-own-target-headers.hmap -I/Users/integrum/Projects/minibsez-iphone-demo/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/MiniBSez-all-target-headers.hmap -iquote /Users/integrum/Projects/minibsez-iphone-demo/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/MiniBSez-project-headers.hmap -F/Users/integrum/Projects/minibsez-iphone-demo/build/Debug-iphonesimulator -I/Users/integrum/Projects/minibsez-iphone-demo/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/integrum/Projects/minibsez-iphone-demo/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/DerivedSources/i386 -I/Users/integrum/Projects/minibsez-iphone-demo/build/MiniBSez.build/Debug-iphonesimulator/MiniBSez.build/DerivedSources -c /Users/integrum/Projects/minibsez-iphone-demo/MiniBSez_Prefix.pch -o /var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MiniBSez_Prefix-eehjudsieuxlzvfrntwbezxxooyf/MiniBSez_Prefix.pch.gch0#
 
 CProcessPCH /var/folders/1e/1eiVyTVFFM0zLd9CMQIedE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MiniBSez_Prefix-flnskscuidpquthajvchyglexhav/MiniBSez_Prefix.pch.gch MiniBSez_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 s304125078.648645
@@ -4659,4 +5034,12 @@ r1
 xTouch
 x/Users/integrum/Documents/MiniBSez/build/Debug-iphonesimulator/MiniBSez.app
 lSLF07#2@81"Touch /Users/integrum/Documents/MiniBSez/build/Debug-iphonesimulator/MiniBSez.app304127274#304127274#0(0"0(0#0#0"2456469440#271"    cd /Users/integrum/Documents/MiniBSez    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/integrum/Documents/MiniBSez/build/Debug-iphonesimulator/MiniBSez.app0#
+
+CTouch /Users/integrum/Projects/minibsez-iphone-demo/build/Debug-iphonesimulator/MiniBSez.app
+s304128497.445032
+e304128497.450668
+r1
+xTouch
+x/Users/integrum/Projects/minibsez-iphone-demo/build/Debug-iphonesimulator/MiniBSez.app
+lSLF07#2@92"Touch /Users/integrum/Projects/minibsez-iphone-demo/build/Debug-iphonesimulator/MiniBSez.app304128497#304128497#0(0"0(0#0#0"2456469440#352"    cd /Users/integrum/Projects/minibsez-iphone-demo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /usr/bin/touch -c /Users/integrum/Projects/minibsez-iphone-demo/build/Debug-iphonesimulator/MiniBSez.app0#
 

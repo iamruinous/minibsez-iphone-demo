@@ -89,7 +89,7 @@
 							<int key="NSfFlags">16</int>
 						</object>
 						<int key="IBUIButtonType">1</int>
-						<string key="IBUINormalTitle">What does he sez?</string>
+						<string key="IBUINormalTitle">Refresh</string>
 						<object class="NSColor" key="IBUIHighlightedTitleColor" id="349365101">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MQA</bytes>

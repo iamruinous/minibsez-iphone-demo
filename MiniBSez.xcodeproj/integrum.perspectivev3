@@ -216,7 +216,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>C03A2D0112209E1600C67960</string>
+						<string>C03A2D3D1220A31E00C67960</string>
 						<key>history</key>
 						<array>
 							<string>C09E3F341220899D00113006</string>
@@ -319,7 +319,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>1</integer>
+									<integer>11</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -371,16 +371,16 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>C03A2CFD12209E1600C67960</string>
+										<string>C03A2D3C1220A31E00C67960</string>
 										<key>history</key>
 										<array>
 											<string>C09E3EFD1220806A00113006</string>
-											<string>C09E3EFE1220806A00113006</string>
 											<string>C09E4008122098C200113006</string>
-											<string>C09E406C12209C0E00113006</string>
-											<string>C09E408312209C7E00113006</string>
-											<string>C09E409B12209D2B00113006</string>
-											<string>C09E409C12209D2B00113006</string>
+											<string>C03A2D0A1220A08700C67960</string>
+											<string>C03A2D0B1220A08700C67960</string>
+											<string>C03A2D0C1220A08700C67960</string>
+											<string>C03A2D0D1220A08700C67960</string>
+											<string>C03A2D0E1220A08700C67960</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -656,14 +656,14 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>C09E3F051220806B00113006</string>
+				<string>C03A2D101220A08700C67960</string>
 				<string>1CCC7628064C1048000F2A68</string>
 				<string>1CCC7629064C1048000F2A68</string>
-				<string>C09E3F061220806B00113006</string>
-				<string>C09E3F071220806B00113006</string>
-				<string>C09E3F081220806B00113006</string>
-				<string>C09E3F091220806B00113006</string>
-				<string>C09E3EFA1220806A00113006</string>
+				<string>C03A2D111220A08700C67960</string>
+				<string>C03A2D121220A08700C67960</string>
+				<string>C03A2D131220A08700C67960</string>
+				<string>C03A2D141220A08700C67960</string>
+				<string>C03A2D151220A08700C67960</string>
 			</array>
 			<key>ToolbarConfigUserDefaultsMinorVersion</key>
 			<string>2</string>
@@ -697,6 +697,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>C03A2D181220A08700C67960</string>
+		<string>C03A2D191220A08700C67960</string>
 		<string>C09E3F111220816D00113006</string>
 		<string>/Users/integrum/Projects/minibsez-iphone-demo/MiniBSez.xcodeproj</string>
 	</array>
